@@ -3,7 +3,12 @@ const express = require('express');
 const mongoose = require('mongoose');
 const app = express();
 
+//middleware
 app.use(express.static('public'));
+
+//controllers
+const postController = require('./controllers/post.js');
+app.use('/post', postController);
 
 
 

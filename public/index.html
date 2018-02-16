@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="DevApp">
   <head>
     <meta charset="utf-8">
     <title>DEV</title>
@@ -14,12 +14,16 @@
     <link rel="stylesheet" href="./css/main.css">
 
     <!-- Scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.7/angular.min.js"></script>
     <script src="/js/app.js" charset="utf-8"></script>
 
   </head>
   <body>
+    <section ng-controller="PostController as post">
+      <!-- <h1>This site {{post.developed}}</h1> -->
+    </section>
 
-    test
+
 
 
 
