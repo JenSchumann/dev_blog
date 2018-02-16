@@ -1,0 +1,23 @@
+{
+  "name": "dev_blog",
+  "version": "1.0.0",
+  "description": "#### **About:** < One New DEV seeks to define life's challenges and experiences entering the world of code >",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JenSchumann/dev_blog.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JenSchumann/dev_blog/issues"
+  },
+  "homepage": "https://github.com/JenSchumann/dev_blog#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
