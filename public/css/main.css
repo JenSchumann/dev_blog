@@ -1,4 +1,124 @@
 * {
-  border: 1px solid hotpink;
-  /* background-color: #39487f; */
+  /* border: 1px solid hotpink; */
+
 }
+
+.jumbotron {
+  background-color: #ecd0ac;
+  color: black;
+  font-size: 45em;
+  text-align: center;
+  font-family: 'Neucha', cursive;
+}
+
+body {
+  background-color: #efdcc3;
+}
+
+#fontA {
+  font-family: 'Nanum Brush Script', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+#fontB {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+#fontC {
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+#fontD {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+#fontE {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+#fontF {
+  font-family: 'News Cycle', sans-serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+#fontG {
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+#fontH {
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  font-size: 3em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Fonts I'm considering:
+font-family: 'Nanum Brush Script', cursive;
+font-family: 'Shadows Into Light', cursive;
+font-family: 'Acme', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Pathway Gothic One', sans-serif;
+font-family: 'News Cycle', sans-serif;
+font-family: 'Boogaloo', cursive;
+font-family: 'Architects Daughter', cursive;
+font-family: 'Neucha', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Special Elite', cursive;
+font-family: 'Cabin Sketch', cursive;
+font-family: 'Rancho', cursive;
+font-family: 'Just Another Hand', cursive;
+font-family: 'Sigmar One', cursive;
+font-family: 'Carter One', cursive;
+font-family: 'Marcellus SC', serif;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Annie Use Your Telescope', cursive;
+font-family: 'Changa One', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Londrina Solid', cursive;
+font-family: 'Give You Glory', cursive;
+font-family: 'Unkempt', cursive; */
