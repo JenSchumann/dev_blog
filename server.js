@@ -3,12 +3,18 @@ const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const app = express();
+const session = require('express-session');
 const env = require('dotenv').config();
 
 //middleware
 app.use(bodyParser.urlencoded({extended:false}));
 app.use(bodyParser.json());
 app.use(express.static('public'));
+app.use(session({
+	secret: process.env.SECRET,
+	resave: false,
+	saveUninitialized: false
+}));
 
 //controllers
 const postController = require('./controllers/post.js');
