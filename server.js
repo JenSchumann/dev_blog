@@ -20,6 +20,9 @@ app.use(session({
 const postController = require('./controllers/post.js');
 app.use('/post', postController);
 
+const adminController = require('./controllers/admin.js');
+app.use('/admin', adminController);
+
 
 
 

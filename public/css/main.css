@@ -21,6 +21,7 @@ h1 {
 
 h1.d-inline {
   text-align: center;
+  padding-top: 60%;
 }
 
 body {
@@ -36,7 +37,7 @@ body {
 
 h5#est {
   margin-left: 4em;
-  padding-top: 40%;
+  padding-top: 36%;
   text-align: center;
   margin-right: 4em;
   font-family: 'Special Elite', cursive;
