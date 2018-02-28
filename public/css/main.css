@@ -115,6 +115,14 @@ ul.nav.justify-content-center {
   border-right: none;
 }
 
+div.row {
+  height: 100%;
+  width: 100%;
+  border-color: black;
+  color: black;
+}
+
+
 
 
 
