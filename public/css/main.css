@@ -28,6 +28,16 @@ body {
   background-color: #efdcc3;
 }
 
+/* #leftCol {
+  margin-left: 0 auto;
+  padding-left: 0;
+} */
+div.col-2.d-inline.float-left {
+  margin-left: 0 auto;
+  padding-left: 0;
+  justify-content: flex-start;
+}
+
 #poet {
   /* float: left; */
   height: 15em;

@@ -23,7 +23,8 @@ app.use('/post', postController);
 const adminController = require('./controllers/admin.js');
 app.use('/admin', adminController);
 
-
+// Fixes mongoose promise deprecation warning
+mongoose.Promise = global.Promise;
 
 
 
