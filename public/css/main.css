@@ -32,11 +32,13 @@ body {
   margin-left: 0 auto;
   padding-left: 0;
 } */
-div.col-2.d-inline.float-left {
+/* div.col-2.d-inline.float-left {
   margin-left: 0 auto;
   padding-left: 0;
   justify-content: flex-start;
-}
+} */
+
+
 
 #poet {
   /* float: left; */
@@ -125,13 +127,33 @@ ul.nav.justify-content-center {
   border-right: none;
 }
 
-div.row {
+/* div.row {
   height: 100%;
   width: 100%;
   border-color: black;
   color: black;
+} */
+
+div.container {
+  margin-left: 0;
+  /* justify-content: space-evenly; */
+  display: flex;
+
 }
 
+div#leftCol.col-6.d-inline.float-none {
+  width: 75%;
+}
+
+div.col.d-inline.p-2.float-right {
+  width: 12.5%;
+
+}
+
+div.col.d-inline.p-2.float-left {
+  width: 12.5%;
+  margin-left: 1%;
+}
 
 
 
