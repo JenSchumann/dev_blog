@@ -22,6 +22,7 @@ h1 {
 h1.d-inline {
   text-align: center;
   padding-top: 60%;
+  font-size: 3rem;
 }
 
 body {
@@ -41,11 +42,17 @@ body {
 
 
 #poet {
-  /* float: left; */
   height: 15em;
   width: 17em;
   margin-left: 3em;
 }
+
+#sword, img#sword.img-fluid {
+  height: 15em;
+  width: 17em;
+  margin-right: 3em;
+}
+
 
 h5#est {
   margin-left: 4em;
@@ -154,7 +161,6 @@ div.col.d-inline.p-2.float-left {
   width: 12.5%;
   margin-left: 1%;
 }
-
 
 
 
