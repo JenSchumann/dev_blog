@@ -25,8 +25,20 @@ h1.d-inline {
   font-size: 3rem;
 }
 
+div.#blogHeader.jumbotron {
+  padding: 0;
+}
+
+div.#blogHeader.row {
+  padding: 0;
+}
+
 body {
   background-color: #efdcc3;
+}
+
+#blogHeader {
+  justify-content: center;
 }
 
 /* #leftCol {
@@ -44,7 +56,15 @@ body {
 #poet {
   height: 15em;
   width: 17em;
-  margin-left: 3em;
+  /* margin-left: 3em; */
+}
+
+#vol {
+  margin-left: 4em;
+  /* padding-top: 36%; */
+  text-align: center;
+  margin-right: 4em;
+  font-family: 'Special Elite', cursive;
 }
 
 #sword, img#sword.img-fluid {
@@ -55,10 +75,10 @@ body {
 
 
 h5#est {
-  margin-left: 4em;
+  margin-left: 1.5em;
   padding-top: 36%;
   text-align: center;
-  margin-right: 4em;
+  margin-right: 1.5em;
   font-family: 'Special Elite', cursive;
 
 }
