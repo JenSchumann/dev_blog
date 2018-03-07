@@ -27,10 +27,15 @@ h1.d-inline {
 
 div.#blogHeader.jumbotron {
   padding: 0;
+  /* align-items: center; */
+  align-content: center;
+  text-align: center;
 }
 
 div.#blogHeader.row {
   padding: 0;
+  /* align-items: center; */
+  align-content: center;
 }
 
 body {
@@ -70,7 +75,8 @@ body {
 #sword, img#sword.img-fluid {
   height: 15em;
   width: 17em;
-  margin-right: 3em;
+  /* margin-right: 3em;
+  justify-content: float-right; */
 }
 
 
