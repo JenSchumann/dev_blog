@@ -89,58 +89,10 @@ h5#est {
 
 }
 
-#fontA {
-  font-family: 'Nanum Brush Script', cursive;
-  text-align: center;
-  font-size: 3em;
-}
-
-#fontB {
-  font-family: 'Shadows Into Light', cursive;
-  text-align: center;
-  font-size: 3em;
-}
-
-#fontC {
-  font-family: 'Acme', sans-serif;
-  text-align: center;
-  font-size: 3em;
-}
-
-#fontD {
-  font-family: 'Amatic SC', cursive;
-  text-align: center;
-  font-size: 3em;
-}
-
-#fontE {
-  font-family: 'Pathway Gothic One', sans-serif;
-  text-align: center;
-  font-size: 3em;
-}
-
-#fontF {
-  font-family: 'News Cycle', sans-serif;
-  text-align: center;
-  font-size: 3em;
-}
-
-#fontG {
-  font-family: 'Boogaloo', cursive;
-  text-align: center;
-  font-size: 3em;
-}
-
-#fontH {
-  font-family: 'Architects Daughter', cursive;
-  text-align: center;
-  font-size: 3em;
-}
-
 .nav-link {
   color: black;
   font-family: 'Neucha', cursive;
-  font-size: 3em;
+  font-size: 2em;
   padding: .25em 2em;
   /* margin-bottom: .25em; */
 }
@@ -155,9 +107,11 @@ li.nav-item {
 }
 
 ul.nav.justify-content-center {
-  border: 1px solid black;
+  border: 3px double #8c8b8b;
   border-left: none;
   border-right: none;
+  padding-top: .50em;
+  padding-bottom: .50em;
 }
 
 /* div.row {
@@ -176,10 +130,12 @@ div.container {
 
 div#leftCol.col-6.d-inline.float-none {
   width: 75%;
+  margin-right: 0;
 }
 
 div.col.d-inline.p-2.float-right {
   width: 12.5%;
+  margin-left: 0;
 
 }
 
@@ -188,6 +144,76 @@ div.col.d-inline.p-2.float-left {
   margin-left: 1%;
 }
 
+p {
+  padding-right: .5em;
+  margin-right: .5em;
+}
+
+hr.style2 {
+	border-top: 3px double #8c8b8b;
+}
+
+hr.style8 {
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+hr.style8:after {
+	content: '';
+	display: block;
+	margin-top: 2px;
+	border-top: 1px solid #8c8b8b;
+	border-bottom: 1px solid #fff;
+}
+
+hr.style15 {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.style15:after {
+	content: '\002665';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f0f0f0;
+	color: #8c8b8b;
+	font-size: 18px;
+}
+
+#linkFont {
+  font-family: 'Boogaloo', cursive;
+  font-size: 2em;
+
+}
+
+a {
+  color: black;
+}
+
+#postTitle {
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 2.75em;
+}
+
+.col-6.d-inline.p-2.float-none {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+  border: 3px double #8c8b8b;
+  border-top: none;
+  border-bottom: none;
+}
+
+img#thinking.img-responsive {
+  width: 85%;
+  text-align: center;
+  margin: 0 auto;
+  padding-left: 16%;
+}
+
+#divider {
+  width: 88%;
+  padding-left: 10%;
+}
 
 
 
@@ -202,11 +228,161 @@ div.col.d-inline.p-2.float-left {
 
 
 
+#fontA {
+  font-family: 'Nanum Brush Script', cursive;
+  text-align: center;
+  font-size: 2em;
+}
 
+#fontB {
+  font-family: 'Shadows Into Light', cursive;
+  text-align: center;
+  font-size: 2em;
+}
 
+#fontC {
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
 
+#fontD {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+  font-size: 2em;
+}
 
+#fontE {
+  font-family: 'Pathway Gothic One', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
 
+#fontF {
+  font-family: 'News Cycle', sans-serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontG {
+  font-family: 'Boogaloo', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontH {
+  font-family: 'Architects Daughter', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontI {
+  font-family: 'Neucha', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontJ {
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontK {
+  font-family: 'Luckiest Guy', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontL {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontM {
+  font-family: 'Cabin Sketch', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontN {
+  font-family: 'Rancho', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontO {
+  font-family: 'Just Another Hand', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontP {
+  font-family: 'Sigmar One', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontQ {
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontR {
+  font-family: 'Marcellus SC', serif;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontS {
+  font-family: 'Fredericka the Great', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontT {
+  font-family: 'Annie Use Your Telescope', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontU {
+  font-family: 'Changa One', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontV {
+  font-family: 'Love Ya Like A Sister', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontW {
+  font-family: 'Londrina Solid', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontX {
+  font-family: 'Give You Glory', cursive;
+  text-align: center;
+  font-size: 2em;
+}
+
+#fontY {
+  font-family: 'Unkempt', cursive; */
+  text-align: center;
+  font-size: 2em;
+}
+
+/* #fontZ {
+  font-family: 'Special Elite', cursive;
+  text-align: center;
+  font-size: 2em;
+} */
 
 
 
