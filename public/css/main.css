@@ -107,7 +107,7 @@ li.nav-item {
 }
 
 ul.nav.justify-content-center {
-  border: 3px double #8c8b8b;
+  border: 6px double #8c8b8b;
   border-left: none;
   border-right: none;
   padding-top: .50em;
@@ -198,7 +198,7 @@ a {
 .col-6.d-inline.p-2.float-none {
   margin-left: 1.5em;
   margin-right: 1.5em;
-  border: 3px double #8c8b8b;
+  border: 6px double #8c8b8b;
   border-top: none;
   border-bottom: none;
 }
@@ -385,7 +385,8 @@ img#thinking.img-responsive {
 } */
 
 
-
+/* hr styling credit to:
+https://codepen.io/ibrahimjabbari/pen/ozinB */
 
 /* background image credit to:
 https://coderwall.com/p/m-uwvg/css-background-noise */
