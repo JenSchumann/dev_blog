@@ -203,11 +203,20 @@ a {
   border-bottom: none;
 }
 
+div.d-inline {
+  justify-content: center;
+  text-align: center;
+}
+
 img#thinking.img-responsive {
   width: 85%;
   text-align: center;
   margin: 0 auto;
   padding-left: 16%;
+}
+
+#mainTitle {
+  font-size: 7em;
 }
 
 #divider {
