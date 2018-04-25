@@ -26,10 +26,12 @@
 
   </head>
   <body>
-
+<section ng-controller="AdminController as admin">
       <!-- Navbar Section -->
           <section id="navbar" ng-include="'./nav.html'"></section>
 
+      <!-- Signup/Login Forms Section -->
+      <section id="admin" ng-include="'./admin.html'"></section>
 
 
         <div class="row">
@@ -139,7 +141,7 @@
 
 
 
-    <!-- </section> -->
+    </section>  <!-- end section tag for AdminController -->
 
 
 

@@ -13,7 +13,7 @@ router.get('/', (req, res)=> {
 //login verification route
 router.get('/verifyLogin', (req, res)=> {
   if(req.session.logged) {
-    Admin.findOne({ username: req.session.username}, (err, user)=> {
+    Admin.findOne({ username: req.session.username}, (err, admin)=> {
       res.json(admin)
     });
   } else {

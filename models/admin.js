@@ -9,7 +9,7 @@ const adminSchema = mongoose.Schema({
   username: { type: String, required: true, unique: true },
   password: { type: String, required: true },
 
-  post: [Post.schema],
+  post: [Post.schema]
 
 });
 

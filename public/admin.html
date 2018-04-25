@@ -1,0 +1,40 @@
+<!--  Login Form -->
+<section ng-controller="AdminController as admin">
+  <div id="login" class="text-center" ng-if=admin.loginForm>
+    <h1>Login</h1>
+
+    {{admin.message}}
+    <form ng-submit="admin.login();">
+
+        <input type="username" ng-model="admin.loginUsername" placeholder="Username">
+        <!-- <br>
+        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br> -->
+
+
+        <input type="password" ng-model="admin.loginPassword" placeholder="Password"><br><br>
+
+      <button type="submit" class="btn btn-warning" >Login</button><br>
+    </form>
+    <h5>{{admin.message}}</h5><br>
+    Don't have an account?
+    <button class="btn btn-warning" ng-click="admin.toggleForms()">Register!</button><br>
+  </div>
+
+<!-- Register Form -->
+  <div id="register" class="text-center" ng-if=admin.registerForm>
+    <h1>Register Here</h1>
+    <form ng-submit="admin.register();">
+
+        <input type="username" ng-model="admin.registeredUsername" placeholder="Username"><br><br>
+        <!-- <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small><br> -->
+
+        <input type="password" ng-model="admin.registeredPassword" placeholder="Password"><br><br>
+
+      <button type="submit" class="btn btn-warning" >Register</button><br>
+    </form>
+    <br>
+    Already Registered?
+    <button class="btn btn-warning" ng-click="admin.toggleForms()">Login</button><br>
+  </div>
+
+  </section>  <!-- end section tag for AdminController -->
